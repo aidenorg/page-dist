@@ -2479,11 +2479,7 @@ p {
 }
 
 .m--caption {
-  font-size: 12px;
-}
-
-.m--caption.mobile {
-  display: none;
+  font-size: 14px;
 }
 
 .m--styleguide-color-grid {
@@ -2632,12 +2628,12 @@ p {
   display: flex;
 }
 
-.m--navbar-brand {
+.m--navbar-brand, .m--footer-brand {
   width: 150px;
   text-decoration: none;
 }
 
-.m--navbar-brand span {
+.m--navbar-brand span, .m--footer-brand span {
   position: relative;
   top: 5px;
   margin-left: 6px;
@@ -3209,17 +3205,8 @@ p {
   margin-bottom: 38px;
 }
 
-.m--footer-brand {
-  width: 110px;
-  margin-right: 60px;
-}
-
 .m--ml-auto {
   margin-left: auto;
-}
-
-.m--caption-link {
-  text-decoration: none;
 }
 
 .m--mb-32 {
@@ -3790,10 +3777,6 @@ p {
     font-size: 14px;
   }
 
-  .m--caption.mobile {
-    display: none;
-  }
-
   .m--header {
     height: auto;
     padding-top: 100px;
@@ -4093,16 +4076,6 @@ p {
     font-weight: 300;
   }
 
-  .m--caption.desktop {
-    display: none;
-  }
-
-  .m--caption.mobile {
-    margin-top: 20px;
-    margin-bottom: 40px;
-    display: block;
-  }
-
   .m--link-icon {
     width: 36px;
     height: 36px;
@@ -4395,10 +4368,6 @@ p {
     flex-direction: column;
     align-items: flex-start;
     padding-bottom: 32px;
-  }
-
-  .m--footer-brand {
-    width: 88px;
   }
 
   .m--step-wrapper {
