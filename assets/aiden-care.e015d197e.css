@@ -2633,7 +2633,16 @@ p {
 }
 
 .m--navbar-brand {
-  width: 110px;
+  width: 150px;
+  text-decoration: none;
+}
+
+.m--navbar-brand span {
+  position: relative;
+  top: 5px;
+  margin-left: 6px;
+  color: #444;
+  font-size: 18px;
 }
 
 .m--navbar-nav {
@@ -3207,10 +3216,6 @@ p {
 
 .m--ml-auto {
   margin-left: auto;
-}
-
-.m--footer-brand-image, .m--navbar-brand-image {
-  width: 100%;
 }
 
 .m--caption-link {
@@ -4146,10 +4151,6 @@ p {
 
   .m--navbar-inner {
     height: 80px;
-  }
-
-  .m--navbar-brand {
-    width: 88px;
   }
 
   .m--navbar-nav {
