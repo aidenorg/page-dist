@@ -2629,16 +2629,16 @@ p {
 }
 
 .m--navbar-brand, .m--footer-brand {
-  width: 150px;
+  width: 180px;
   text-decoration: none;
 }
 
 .m--navbar-brand span, .m--footer-brand span {
   position: relative;
-  top: 5px;
-  margin-left: 6px;
+  top: 6px;
+  margin-left: 5px;
   color: #444;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .m--navbar-nav {
